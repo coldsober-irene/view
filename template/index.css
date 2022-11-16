@@ -1,34 +1,36 @@
 
+body {margin: 0;}
 .nav-links{
+    background-color: #333;
     list-style-type: none;
+    display: inline;
     padding: 0;
     margin: 0;
-    width: 200px;
-    border: 1px solid;
-    height:100%; /*full height */
-    position: fixed; /* sticky on the scrol */
-    overflow: auto; /* automatic scrol whenever the list is large */
+    width: 100%;
+    top:0;
+    position: fixed;
+    /* border: 1px solid; */
+    overflow: hidden;  /* automatic scrol whenever the list is large */
+}
+.nav-links li{
+    float:left; /* place each link at the left side of the previous one */
+    width: 25%;
 }
 .nav-links li a{
     display: block;
-    /* width: 70px; */
     background-color: rgb(245, 241, 241);
-    padding: 10px 15px;
     text-decoration: none;
-    border-bottom: 1px solid;
+    text-align:center;
+    height: 40px;
 }
 
-/* remove the bottom border on the last item */
-.nav-links:last-child{
-    border-bottom: none;
-}
 
 .nav-links li a:hover{
-    background-color: gold;
+    /* background-color: gold; */
     color:blue;
 }
 
 .nav-links li a:active{
-    background-color: rgb(2, 49, 2);
+    background-color: rgb(185, 187, 185); 
     color: white;
 }
