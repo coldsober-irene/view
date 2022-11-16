@@ -1,0 +1,29 @@
+.nav_base{
+    background-color: rgb(226, 96, 96);
+} 
+
+.nav-links{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    border: 1px solid;
+}
+.nav-links li a{
+    display: block;
+    /* width: 70px; */
+    background-color: rgb(245, 241, 241);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.nav-links li a:hover{
+    background-color: gold;
+    color:blue;
+}
+
+.nav-links li a:active{
+    background-color: rgb(2, 49, 2);
+    color: white;
+}
