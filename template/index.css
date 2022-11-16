@@ -18,6 +18,11 @@
     border-bottom: 1px solid;
 }
 
+/* remove the bottom border on the last item */
+.nav-links:last-child{
+    border-bottom: none;
+}
+
 .nav-links li a:hover{
     background-color: gold;
     color:blue;
